@@ -85,7 +85,7 @@ namespace AoCS
                 System.Threading.Thread.Sleep(250);
             }
         }
-        private static int Search(int[] array, int value)
+        private static int Search(int[] array, int value)//       <------Main Function. By Yusuf İslam ...
         {
             int low = 0, high = array.Length - 1;
 
